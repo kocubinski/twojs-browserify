@@ -2010,7 +2010,7 @@
   module.exports = Two;
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -2334,7 +2334,7 @@
   };
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -2503,7 +2503,7 @@
   };
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -2884,7 +2884,7 @@
   });
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -3644,7 +3644,7 @@
   });
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -4149,7 +4149,7 @@
   }
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -5198,7 +5198,7 @@
   });
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -5331,7 +5331,7 @@
   Shape.MakeObservable(Shape.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6075,7 +6075,7 @@
   }
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6107,7 +6107,7 @@
   Path.MakeObservable(Line.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6138,7 +6138,7 @@
   Path.MakeObservable(Rectangle.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6174,7 +6174,7 @@
   Path.MakeObservable(Ellipse.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6206,7 +6206,7 @@
   Path.MakeObservable(Polygon.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6318,7 +6318,7 @@
   Path.MakeObservable(ArcSegment.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6386,7 +6386,7 @@
   Path.MakeObservable(SineRing.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6427,7 +6427,7 @@
   Path.MakeObservable(Star.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6535,7 +6535,7 @@
   }
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -6996,7 +6996,7 @@
   Gradient.MakeObservable(Gradient.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -7094,7 +7094,7 @@
   LinearGradient.MakeObservable(LinearGradient.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -7211,7 +7211,7 @@
   RadialGradient.MakeObservable(RadialGradient.prototype);
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
@@ -7784,7 +7784,7 @@
   }
 
 })(
-  this.Two,
+  window.Two,
   require('underscore'),
   { Events: require('./events.js') },
   require('./requestAnimationFrame.js')
